@@ -41,11 +41,12 @@ class App extends Component {
       <Router>
         <div>
           <TopNavbar />
-          <h3 class="panel-title">
+          {/* <h3 class="panel-title">
             {localStorage.getItem('jwtToken') &&
               <button class="btn btn-primary" onClick={this.logout}>Logout</button>
             }
-          </h3>
+          </h3> */}
+          
           <Route exact path="/" component={Home} challenges={this.state.challenges} />
           <Route exact path="/challenge" render={() => <Challenge />} />
           {/* <Route exact path="/challenge" render={ () => <Challenge challenges={this.state.challenges} /> }/> */}
