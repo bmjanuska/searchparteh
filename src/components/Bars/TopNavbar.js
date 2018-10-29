@@ -54,7 +54,7 @@ export class TopNavbar extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <Link          
+                <NavLink          
                       to="/"
                       className={
                         window.location.pathname === "/home" || window.location.pathname === "/home"
@@ -63,10 +63,10 @@ export class TopNavbar extends React.Component {
                       }
                     >
                       Home
-                  </Link>
+                  </NavLink>
               </NavItem>
               <NavItem>
-                <Link
+                <NavLink
                     to="/challenge"
                     className={
                       window.location.pathname === "/challenge" || window.location.pathname === "/challenge"
@@ -75,10 +75,10 @@ export class TopNavbar extends React.Component {
                     }
                   >
                     Challenge
-                </Link>
+                </NavLink>
               </NavItem>
               <NavItem>
-                <Link
+                <NavLink
                 to="/user"
                 className={
                   window.location.pathname === "/user" || window.location.pathname === "/user"
@@ -87,11 +87,11 @@ export class TopNavbar extends React.Component {
               }
               >
               My Account
-              </Link>
+              </NavLink>
               </NavItem>
 
               <NavItem>
-                <Link
+                <NavLink
                 to="/user"
                 className={
                   window.location.pathname === "/search" || window.location.pathname === "/search"
@@ -100,18 +100,18 @@ export class TopNavbar extends React.Component {
               }
               >
               Search
-              </Link>
+              </NavLink>
               </NavItem>
 
               <NavItem>
-                <Link  
+                <NavLink  
                 >
                 <h3 class="panel-title">
             {localStorage.getItem('jwtToken') &&
               <button class="btn btn-primary" onClick={this.logout}>Logout</button>
             }
           </h3>
-                </Link>
+                </NavLink>
               </NavItem>
 
             </Nav>
