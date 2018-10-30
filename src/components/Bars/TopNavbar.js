@@ -8,8 +8,9 @@ import {
   NavbarToggler,
   NavbarBrand,
   Nav,
-  NavItem,
-  NavLink} from 'reactstrap';
+  NavItem, 
+  NavLink
+} from 'reactstrap';
 
 export class TopNavbar extends React.Component {
   constructor(props) {
@@ -48,69 +49,74 @@ export class TopNavbar extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="dark" dark expand="md">
+        <Navbar className="navcolor" expand="md">
           <NavbarBrand href="/">Search Party</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink          
-                      to="/"
-                      className={
-                        window.location.pathname === "/home" || window.location.pathname === "/home"
-                          ? "nav-link active"
-                          : "nav-link"
-                      }
-                    >
-                      Home
+                <NavLink>
+                <Link
+                  to="/"
+                  className={
+                    window.location.pathname === "/home" || window.location.pathname === "/home"
+                      ? "nav-link active"
+                      : "nav-link"
+                  }
+                >
+                  Home
+                  </Link>
                   </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink
-                    to="/challenge"
-                    className={
-                      window.location.pathname === "/challenge" || window.location.pathname === "/challenge"
-                        ? "nav-link active"
-                        : "nav-link"
-                    }
-                  >
-                    Challenge
+                <NavLink>
+                <Link
+                  to="/challenge"
+                  className={
+                    window.location.pathname === "/challenge" || window.location.pathname === "/challenge"
+                      ? "nav-link active"
+                      : "nav-link"
+                  }
+                >
+                  Challenge
+                  </Link>
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink
-                to="/user"
-                className={
-                  window.location.pathname === "/user" || window.location.pathname === "/user"
-                  ? "nav-link active"
-                : "nav-link"
-              }
-              >
-              My Account
-              </NavLink>
-              </NavItem>
-
-              <NavItem>
-                <NavLink
-                to="/user"
-                className={
-                  window.location.pathname === "/search" || window.location.pathname === "/search"
-                  ? "nav-link active"
-                : "nav-link"
-              }
-              >
-              Search
-              </NavLink>
-              </NavItem>
-
-              <NavItem>
-                <NavLink  
+                <NavLink>
+                <Link
+                  to="/user"
+                  className={
+                    window.location.pathname === "/user" || window.location.pathname === "/user"
+                      ? "nav-link active"
+                      : "nav-link"
+                  }
                 >
-                <h3 class="panel-title">
-            {localStorage.getItem('jwtToken') &&
-              <button class="btn btn-primary" onClick={this.logout}>Logout</button>
-            }
-          </h3>
+                  My Account
+                  </Link>
+              </NavLink>
+              </NavItem>
+
+              <NavItem>
+                <NavLink>
+                <Link
+                  to="/search"
+                  className={
+                    window.location.pathname === "/search" || window.location.pathname === "/search"
+                      ? "nav-link active"
+                      : "nav-link"
+                  }
+                >
+                  Search
+                  </Link>
+              </NavLink>
+              </NavItem>
+
+              <NavItem>
+                <NavLink>
+                    {localStorage.getItem('jwtToken') &&
+                      <span onClick={this.logout}>Logout</span>
+                    }
                 </NavLink>
               </NavItem>
 

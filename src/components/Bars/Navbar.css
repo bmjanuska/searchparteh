@@ -1,23 +1,5 @@
-.bg-purp{ 
-    background-color: #8E43E8;
+.navcolor{ 
+    background-color: #34C3FF;
     color: #fff;
 }
 
-.bg-blue{ 
-    background-color: #42ddfd;
-}
-
-.navbar .brand, .navbar .nav > li > a:hover {
-    color: #35DDFF;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 1px;
-    font-size: 18px;
-}
-
-.navbar-brand {
-    color: #fff;
-}

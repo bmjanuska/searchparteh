@@ -11,7 +11,7 @@ export const Footer = props => (
           <Link
             to="/"
             className={
-              window.location.pathname === "https://github.com/jessicahoward/searchParty" || window.location.pathname === "/dash"
+              window.location.pathname === "https://github.com/bmjanuska/searchparteh" || window.location.pathname === "/dash"
                 ? "nav-link active"
                 : "nav-link"
             }

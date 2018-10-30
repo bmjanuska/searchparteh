@@ -32,8 +32,8 @@ class Home extends Component {
 
                     </Row>
                     {/* Challenges */}
-                    {this.state.challenges.map(item => {
-                        return (
+                    {/* {this.state.challenges.map(item => {
+                        return ( */}
                             <Row key={item.id}>
                                 <Col size="sm-12 md-8">
                                     {/* challenge name */}
@@ -47,7 +47,7 @@ class Home extends Component {
                                     <button href="#" className="btn btn-purple text-right">Start Challenge</button>
                                 </Col>
                             </Row>
-                        );
+                        {/* ); */}
                     })}
 
 
