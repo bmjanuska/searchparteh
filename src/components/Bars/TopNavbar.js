@@ -50,7 +50,7 @@ export class TopNavbar extends React.Component {
     return (
       <div>
         <Navbar className="navcolor" expand="md">
-          <NavbarBrand href="/">Search Party</NavbarBrand>
+          <NavbarBrand href="/"> Search Party <img src="https://66.media.tumblr.com/5f714906e8a8476af8bec47dde453309/tumblr_phe3weCBSC1qegkvoo1_1280.png"/></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>

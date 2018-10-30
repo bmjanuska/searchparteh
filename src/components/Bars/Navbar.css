@@ -1,5 +1,10 @@
 .navcolor{ 
-    background-color: #34C3FF;
+    background-color: #16858B;
     color: #fff;
 }
 
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: #fff;
+}
