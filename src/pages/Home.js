@@ -33,14 +33,14 @@ class Home extends Component {
                     {/* {this.state.challenges.map(item => {
                         return ( */}
                     <Row >
-                        <Col xs="12" m="8">
+                        <Col xs="12" md="8">
                             {/* challenge name */}
                             <h3 className="Challenge Name">Orlando Adventurer</h3>
                             {/* number of places in the challenge */}
                             <h4>3 Places</h4>
                             <br></br>
                         </Col>
-                        <Col xs="12" m="4">
+                        <Col xs="12" md="4">
                             {/* begin challenge and make this update the challenge page to make this current challenge  */}
                            {/* placeholder */}
                             <Link

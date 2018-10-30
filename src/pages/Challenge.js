@@ -109,14 +109,14 @@ class Challenge extends Component {
                     <h3 className="Challenge Name">Orlando Adventurer</h3>
                     </Row>
                     <Row style={{ marginBottom: 25 }} >
-                        <Col m="8">
+                        <Col sm="12" md="8">
                             {/* challenge name */}
                             <h2 className="Challenge Name">Location 1</h2>
                             {/* number of places in the challenge */}
                             <p>The swans of Orlando love to swim here. Also has a fun farmers market on Sundays.</p>
                             <br></br>
                         </Col>
-                        <Col m="4">
+                        <Col sm="12" md="4">
                             {/* begin challenge and make this update the challenge page to make this current challenge  */}
                             <button href="#" className="btn btn-purple text-right">Check In</button>
                         </Col>
@@ -124,28 +124,28 @@ class Challenge extends Component {
 
 
                     <Row >
-                        <Col m="8">
+                        <Col sm="12" md="8">
                             {/* challenge name */}
                             <h2 className="Challenge Name">Location 2</h2>
                             {/* number of places in the challenge */}
                             <p>Roses are red, violets are blue, a beautiful garden dream come true!</p>
                             <br></br>
                         </Col>
-                        <Col m="4">
+                        <Col sm="12" md="4">
                             {/* begin challenge and make this update the challenge page to make this current challenge  */}
                             <button href="#" className="btn btn-purple text-right">Check In</button>
                         </Col>
                     </Row>
 
                     <Row >
-                        <Col m="8">
+                        <Col sm="12" md="8">
                             {/* challenge name */}
                             <h2 className="Challenge Name">Location 3</h2>
                             {/* number of places in the challenge */}
                             <p>Learn how to code the MERN stack here. The colors black and gold are well received here.</p>
                             <br></br>
                         </Col>
-                        <Col m="4">
+                        <Col sm="12" md="4">
                             {/* begin challenge and make this update the challenge page to make this current challenge  */}
                             <button href="#" className="btn btn-purple text-right">Check In</button>
                         </Col>

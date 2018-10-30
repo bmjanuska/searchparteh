@@ -12,3 +12,14 @@
 .NavbarBrand{ 
     color: #fff;
 }
+
+a {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
