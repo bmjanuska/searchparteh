@@ -29,22 +29,6 @@ class User extends Component {
                         <img style={{ width: 150 }} src="https://66.media.tumblr.com/2780d33344a16787b516db882b3c5e61/tumblr_phf0qvFFYY1qegkvoo2_400.png" />
                         <img style={{ width: 150 }} src="https://66.media.tumblr.com/fa154c7a9c0308855635b445fe490d0f/tumblr_phf0qvFFYY1qegkvoo3_400.png" />
 
-                        {/* <button className="btn btn-success">
-                    Search
-                            </button>
-                <button className="btn btn-purple">
-                    Search
-                            </button>
-                <button className="btn btn-pink">
-                    Search
-                            </button>
-                <button className="btn btn-blue">
-                    Search
-                            </button>
-                <button className="btn btn-yellow">
-                    Search
-                            </button> */}
-                        {/* Challenges */}
                     </div >
                 </Container>
             </div>

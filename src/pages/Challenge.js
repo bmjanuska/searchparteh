@@ -108,7 +108,7 @@ class Challenge extends Component {
                     <Row>
                     <h3 className="Challenge Name">Orlando Adventurer</h3>
                     </Row>
-                    <Row style={{ marginBottom: 25 }} >
+                    <Row style={{ marginBottom: 15 }} >
                         <Col sm="12" md="8">
                             {/* challenge name */}
                             <h2 className="Challenge Name">Location 1</h2>
@@ -118,12 +118,12 @@ class Challenge extends Component {
                         </Col>
                         <Col sm="12" md="4">
                             {/* begin challenge and make this update the challenge page to make this current challenge  */}
-                            <button href="#" className="btn btn-purple text-right">Check In</button>
+                            <button href="#" className="btn btn-red text-right">Check In</button>
                         </Col>
                     </Row>
 
 
-                    <Row >
+                    <Row style={{ marginBottom: 15 }}>
                         <Col sm="12" md="8">
                             {/* challenge name */}
                             <h2 className="Challenge Name">Location 2</h2>
@@ -133,11 +133,11 @@ class Challenge extends Component {
                         </Col>
                         <Col sm="12" md="4">
                             {/* begin challenge and make this update the challenge page to make this current challenge  */}
-                            <button href="#" className="btn btn-purple text-right">Check In</button>
+                            <button href="#" className="btn btn-red text-right">Check In</button>
                         </Col>
                     </Row>
 
-                    <Row >
+                    <Row style={{ marginBottom: 15 }}>
                         <Col sm="12" md="8">
                             {/* challenge name */}
                             <h2 className="Challenge Name">Location 3</h2>
@@ -147,7 +147,7 @@ class Challenge extends Component {
                         </Col>
                         <Col sm="12" md="4">
                             {/* begin challenge and make this update the challenge page to make this current challenge  */}
-                            <button href="#" className="btn btn-purple text-right">Check In</button>
+                            <button href="#" className="btn btn-red text-right">Check In</button>
                         </Col>
                     </Row>
 

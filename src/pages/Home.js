@@ -51,7 +51,7 @@ class Home extends Component {
                                         : "nav-link"
                                 }
                             >
-                                <button href="#" className="btn btn-purple text-right">Start Challenge</button>
+                                <button className="btn btn-red text-right">Start Challenge</button>
                             </Link>
                         </Col>
                     </Row>
@@ -63,4 +63,3 @@ class Home extends Component {
 }
 
 export default Home;
-
