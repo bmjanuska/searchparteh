@@ -1,13 +1,15 @@
 import React from "react";
 import "./Banner.css";
+import { Jumbotron } from 'reactstrap';
 
 const Banner = () => (
-    <div className="jumbotron jumbotron-fluid">
-        <div className="container">
-            <h1 className="display-4">Get Searching!</h1>
+    <div>
+        <Jumbotron>
+            <h1 className="display-3">Get Searching!</h1>
+            <hr className="my-2" />
             <p className="lead">Start a challenge bellow and go!</p>
-        </div>
-    </div>
+        </Jumbotron>
+    </div >
 );
 
 export default Banner; 

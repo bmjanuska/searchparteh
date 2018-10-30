@@ -6,6 +6,8 @@ class User extends Component {
 
     render() {
         return (
+            <div>
+            <Container>
             <div className="User">
 
                 <h1>User Name</h1>
@@ -35,6 +37,8 @@ class User extends Component {
                             </button>
                 {/* Challenges */}
             </div >
+            </Container>
+            </div>
         );
     }
 }

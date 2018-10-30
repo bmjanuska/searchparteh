@@ -24,7 +24,7 @@ class Home extends Component {
     render() {
         return (
             <div className="Home">
-                <Banner />
+                <Banner/>
                 <Container>
                     <Row>
                         <h1>Challenges</h1>
@@ -48,9 +48,6 @@ class Home extends Component {
                                 </Col>
                             </Row>
                         {/* ); */}
-                    })}
-
-
                 </Container>
             </div>
         );

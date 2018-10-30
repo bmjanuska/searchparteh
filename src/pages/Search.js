@@ -57,7 +57,7 @@ class Search extends Component {
       <div>
         <Container>
           <Row>
-            <Col size="12">
+            <Col>
               <h1>Search</h1>
             </Col>
           </Row>
