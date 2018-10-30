@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Banner from '../components/Banner';
-import axios from 'axios';
 import { Container, Row, Col } from 'reactstrap';
-
+import { Link } from "react-router-dom";
+import axios from 'axios';
 
 class Home extends Component {
     state = {
@@ -42,7 +42,17 @@ class Home extends Component {
                         </Col>
                         <Col xs="12" m="4">
                             {/* begin challenge and make this update the challenge page to make this current challenge  */}
-                            <button href="#" className="btn btn-purple text-right">Start Challenge</button>
+                           {/* placeholder */}
+                            <Link
+                                to="/challenge"
+                                className={
+                                    window.location.pathname === "/challenge" || window.location.pathname === "/challenge"
+                                        ? "nav-link active"
+                                        : "nav-link"
+                                }
+                            >
+                                <button href="#" className="btn btn-purple text-right">Start Challenge</button>
+                            </Link>
                         </Col>
                     </Row>
                     {/* ); */}
