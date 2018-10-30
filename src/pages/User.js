@@ -10,17 +10,17 @@ class User extends Component {
             <Container>
             <div className="User">
 
-                <h1>User Name</h1>
+                <h1>bernfern</h1>
                 {/* user rank */}
                 <Hbar />
-                <h3>User Rank</h3>
-                <h3>Completed: # Challenges</h3>
+                <h3>User Rank: Timid Hiker</h3>
+                <h3>Number of Completed: 5 Challenges</h3>
                 {/* user Badges */}
                 <Hbar />
 
                 <h2>Badges</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at quam bibendum, sodales elit ac, volutpat dui. Ut rutrum purus ipsum, ut mollis tellus facilisis non. Fusce viverra commodo luctus. Pellentesque ullamcorper arcu quis velit pulvinar, a convallis nisl pellentesque. Mauris eget arcu orci. Integer eget orci pellentesque, auctor erat eget, malesuada nisi. Sed bibendum tellus a sagittis auctor. Vivamus turpis quam, placerat non arcu at, posuere ultrices nibh. Duis ut commodo nunc. Etiam commodo blandit lobortis. Aliquam fermentum convallis consectetur. Quisque finibus metus ac sem sollicitudin vehicula. Cras gravida iaculis nisi, at mollis dui molestie vitae.</p>
-                <button className="btn btn-success">
+                {/* <button className="btn btn-success">
                     Search
                             </button>
                 <button className="btn btn-purple">
@@ -34,7 +34,7 @@ class User extends Component {
                             </button>
                 <button className="btn btn-yellow">
                     Search
-                            </button>
+                            </button> */}
                 {/* Challenges */}
             </div >
             </Container>

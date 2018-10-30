@@ -18,36 +18,34 @@ class Home extends Component {
                 })
                 console.log(res);
             });
-            console.log("the key " + process.env.REACT_APP_MAPS_API_KEY); 
+        console.log("the key " + process.env.REACT_APP_MAPS_API_KEY);
     }
 
     render() {
         return (
             <div className="Home">
-                <Banner/>
+                <Banner />
                 <Container>
                     <Row>
                         <h1>Challenges</h1>
-
-
                     </Row>
                     {/* Challenges */}
                     {/* {this.state.challenges.map(item => {
                         return ( */}
-                            <Row > 
-                                <Col size="sm-12 md-8">
-                                    {/* challenge name */}
-                                    <h3 className="Challenge Name">Orlando Adventurer</h3>
-                                    {/* number of places in the challenge */}
-                                    <h4>3 Places</h4>
-                                    <br></br>
-                                </Col>
-                                <Col size="sm-12 md-4">
-                                    {/* begin challenge and make this update the challenge page to make this current challenge  */}
-                                    <button href="#" className="btn btn-purple text-right">Start Challenge</button>
-                                </Col>
-                            </Row>
-                        {/* ); */}
+                    <Row >
+                        <Col size="sm-12 md-8">
+                            {/* challenge name */}
+                            <h3 className="Challenge Name">Orlando Adventurer</h3>
+                            {/* number of places in the challenge */}
+                            <h4>3 Places</h4>
+                            <br></br>
+                        </Col>
+                        <Col size="sm-12 md-4">
+                            {/* begin challenge and make this update the challenge page to make this current challenge  */}
+                            <button href="#" className="btn btn-purple text-right">Start Challenge</button>
+                        </Col>
+                    </Row>
+                    {/* ); */}
                 </Container>
             </div>
         );
