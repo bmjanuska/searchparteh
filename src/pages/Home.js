@@ -34,12 +34,12 @@ class Home extends Component {
                     {/* Challenges */}
                     {/* {this.state.challenges.map(item => {
                         return ( */}
-                            <Row key={item.id}>
+                            <Row > 
                                 <Col size="sm-12 md-8">
                                     {/* challenge name */}
-                                    <h3 className="Challenge Name">{item.name}</h3>
+                                    <h3 className="Challenge Name">Orlando Adventurer</h3>
                                     {/* number of places in the challenge */}
-                                    <h4># Places</h4>
+                                    <h4>3 Places</h4>
                                     <br></br>
                                 </Col>
                                 <Col size="sm-12 md-4">
