@@ -56,6 +56,11 @@ class Search extends Component {
     return (
       <div>
         <Container>
+
+          {/* spacer  */}
+          <span style={{ margin: 50 }} />
+          {/*  end spacer  */}
+          
           <Row>
             <Col>
               <h1>Search</h1>
