@@ -6,11 +6,27 @@ var UserSchema = new Schema({
   username: {
         type: String,
         unique: true,
-        required: true
+        required: "Type your email for username!",
+        match: [/.+@.+\..+/, "Please enter a valid e-mail address"]
     },
   password: {
         type: String,
-        required: true
+        trim: true,
+        required: "Make it tricky, but not too tricky...",
+        // validate: [
+        //     function(input) {
+        //       return input.length >= 6;
+        //     },
+        //     "Password should be longer."
+        //   ]
+    }, 
+    userCreated: {
+        type: Date,
+        default: Date.now
+      }, 
+    challenges: {
+        type: Schema.Type.ObjectId,
+        ref:  'Challenges'
     }
 });
 
